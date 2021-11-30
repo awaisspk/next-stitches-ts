@@ -1,5 +1,12 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@stitches": ["styles/stitches.config.ts"],
+      "@globalCss": ["styles/globalStyles.ts"],
+      "@components/*": ["src/components/*"],
+      "@src/*": ["src/*"]
+    },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
