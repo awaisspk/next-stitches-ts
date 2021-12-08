@@ -1,4 +1,5 @@
 import {styled} from '@stitches';
+import {gap} from './gap';
 
 export const Flex = styled('div', {
   display: 'flex',
@@ -66,26 +67,8 @@ export const Flex = styled('div', {
         alignItems: 'stretch',
       },
     },
-    gap: {
-      1: {
-        gap: '$1',
-      },
-      2: {
-        gap: '$2',
-      },
-      3: {
-        gap: '$3',
-      },
-      4: {
-        gap: '$4',
-      },
-      5: {
-        gap: '$5',
-      },
-      6: {
-        gap: '$6',
-      },
-    },
+
+    gap,
 
     display: {
       flex: {
@@ -95,6 +78,7 @@ export const Flex = styled('div', {
         display: 'inline-flex',
       },
     },
+
     center: {
       true: {
         justifyContent: 'center',
