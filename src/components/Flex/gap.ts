@@ -11,22 +11,7 @@ export const gap = (Object.keys(space) as Array<TSpaceKey>).reduce<
 >(
   (acc, cv) => ({
     ...acc,
-    [cv]: {$$stackGap: `$space$${cv}`},
+    [cv]: {gap: `$space$${cv}`},
   }),
   {} as any
 );
-
-export const Stack = css({
-  display: 'flex',
-  listStyleType: 'none',
-  paddingLeft: 0,
-  '> * + *': {
-    marginTop: '$$stackGap',
-  },
-  variants: {
-    gap,
-  },
-  defaultVariants: {
-    gap: 4,
-  },
-});

@@ -148,12 +148,19 @@ const StitchesConfig = createStitches({
     dark: '(prefers-color-scheme: dark)',
     light: '(prefers-color-scheme: light)',
     hover: '(any-hover : hover)',
-    bp1: '(min-width: 30em)',
-    bp2: '(min-width: 40em)',
-    bp3: '(min-width: 48em)',
-    bp4: '(min-width: 62em)',
-    bp5: '(min-width: 80em)',
-    bp6: '(min-width: 90em)',
+    bp1: '(min-width: 30em)', // 480px
+    bp2: '(min-width: 40em)', // 640px
+    bp3: '(min-width: 48em)', // 768px
+    bp4: '(min-width: 62em)', // 992px
+    bp5: '(min-width: 80em)', // 1280px
+    bp6: '(min-width: 90em)', // 1440px
+
+    bpmax1: '(max-width: 30em)',
+    bpmax2: '(max-width: 40em)',
+    bpmax3: '(max-width: 48em)',
+    bpmax4: '(max-width: 62em)',
+    bpmax5: '(max-width: 80em)',
+    bpmax6: '(max-width: 90em)',
   },
   utils: {
     bc: (value: Stitches.PropertyValue<'backgroundColor'>) => ({
