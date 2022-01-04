@@ -3,7 +3,7 @@ import {normalize} from 'stitches-normalize-css';
 
 export const globalStyles = globalCss(...normalize, {
   '@font-face ': {
-    fontFamily: '', // set font
+    fontFamily: '',
     fontStyle: 'normal',
     fontWeight: '100 900',
     fontDisplay: 'optional',
