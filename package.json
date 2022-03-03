@@ -13,12 +13,12 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@stitches/react": "^1.2.6",
-    "framer-motion": "^5.3.3",
-    "next": "12.0.4",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-use": "^17.3.1",
+    "@stitches/react": "latest",
+    "framer-motion": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-use": "latest",
     "stitches-normalize-css": "^1.2.0"
   },
   "devDependencies": {
